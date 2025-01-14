@@ -1,0 +1,3 @@
+User Input working until Duty Cycle 15.
+
+Current issue: Motor rotates continuously if the Duty Cycle is 15, that is more than 180 degrees.
