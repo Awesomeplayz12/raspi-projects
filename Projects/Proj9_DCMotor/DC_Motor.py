@@ -122,8 +122,8 @@ if __name__ == "__main__":
 
     execution_thread.start()
 
-with keyboard.Listener(
-    on_hold = on_hold as listener:
-        listener.join()
+with keyboard.Listener() as listener:
+    on_hold = on_hold
+    listener.join()
 
 execution_thread.join()
